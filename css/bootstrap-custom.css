@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ---------------------------------------------------------------
+CUSTOM BOOTSTRAP STRUCTURE START HERE
+--------------------------------------------------------------- */
+.container {
+  max-width: 1200px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  margin-right: auto;
+  margin-left: auto;	  
+}
+
+.row {
+  margin-right:0px;
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+	
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, 
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, 
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, 
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, 
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, 
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, 
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, 
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, 
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+{
+  position:relative;
+  min-height:1px;
+  padding-right:5px;
+  padding-left:5px;
+  padding-top:3px;
+  padding-bottom:3px;
+}
+
+
+
+img {max-width: 100% !important; margin: 0px;}
+         
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus
+{
+    background: transparent;
+}
+
+.navbar-nav {
+float: none !important;
+}
+
+.navbar-nav > li > a {
+    text-shadow: 0 0 0 rgba(255, 255, 255, .0);
+}
+
+.dropdown-menu {
+    background:#333333; 
+    margin:7px 0px; 
+    border-radius: 0px; 
+    padding: 0px;
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 10px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background:transparent;
+}
+
+
+.btn{background:transparent; padding:12px 12px;}
+.btn:active,
+.btn.active {
+background-image: none;
+outline: 0;
+-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .125);
+box-shadow: inset 0 0px 0px rgba(0, 0, 0, .125);
+}
+
+.popover-title{background: #cc0000; color: #ffffff;}
+.popover-content { padding: 9px 14px;}
+
+
+.panel-default > .panel-heading {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+    background-repeat: repeat-x;
+    color:#ffffff;
+}
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, .0000) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, .0000) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0)), to(rgba(0, 0, 0, .0000)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, .0000) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, .0000) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, .0000) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0)), to(rgba(0, 0, 0, .0000)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .0) 0%, rgba(0, 0, 0, .0000) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+/* ---------------------------------------------------------------
+CUSTOM BOOTSTRAP STRUCTURE END HERE
+--------------------------------------------------------------- */

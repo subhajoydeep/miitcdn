@@ -1,0 +1,104 @@
+.offer-box
+{
+
+    background: #ffffff;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #dbdbdb!important;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    margin: 0 0px 0px 0px;
+    /* color: #ffffff; */
+    box-shadow: 0px 0px 0px 0px #a2a2a2;
+          
+}
+
+.filter-show{
+        display:none;
+    }
+/* ------------------------------------------------------------------------------------------------------------------------------
+		// CUSTOM MEDIA QUERIES STYLE START HERE //
+------------------------------------------------------------------------------------------------------------------------------*/	
+
+	/* -------------------- for mini screen -------------------- */ 
+ 	@media screen and (max-width:991px) 
+	{
+
+        }
+        /* -------------------- for mini screen -------------------- */ 
+ 
+ 
+ 
+	/* -------------------- for mini screen -------------------- */ 
+ 	@media screen and (min-width: 0px) and (max-width: 320px) 
+	{
+
+                    
+            }
+        /* -------------------- for mini screen -------------------- */ 
+        
+        
+        
+	/* -------------------- for mini small screen -------------------- */		
+	@media screen and (min-width: 321px) and (max-width: 590px) 
+	{ 
+
+                    
+        } 
+        /* -------------------- for mini small screen -------------------- */
+        
+        
+        
+	/* -------------------- for xtra small screen -------------------- */		
+	@media screen and (min-width: 591px) and (max-width:767px) 
+	{  
+
+	}
+        /* -------------------- for xtra small screen -------------------- */
+        
+        
+
+	/* -------------------- for small screen -------------------- */
+        @media screen and (min-width:768px)
+        {
+
+        }
+        
+	@media screen and (min-width: 768px) and (max-width: 991px) 
+	{
+             
+	}
+        /* -------------------- for small screen -------------------- */
+        
+        
+
+	/* -------------------- for medium screen -------------------- */	
+	@media screen and (min-width: 992px) and (max-width: 1199px) 
+	{
+
+
+	}
+        /* -------------------- for medium screen -------------------- */
+        
+
+	/* -------------------- for large screen -------------------- */
+        @media screen and (min-width: 1200px) 
+	{
+
+           
+	}
+        /* -------------------- for large screen -------------------- */
+      
+	
+/*------------------------------------------------------------------------------------------------------------------------------
+		// CUSTOM MEDIA QUERIES STYLE END HERE //
+------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------        
+        @media screen and (min-width: 1361px) and (max-width: 1920px), screen and (max-height: 1080px) 
+	{
+
+	}
+------------------------------------------------------------------------------------------------------------------------------*/

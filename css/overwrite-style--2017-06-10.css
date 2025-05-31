@@ -1,0 +1,193 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Jun, 2017, 2:06:31 PM
+    Author     : User 2
+*/
+
+.navbar-nav {
+    float: right!important;
+}
+.header-panel .mega-menu-panel
+{
+    background:transparent;/*#f1d160*/ 
+    border-top:transparent;/*border-top:#ffe27d 5px solid;*/
+    padding:0px 0px 0px 0px; 
+    border-radius:5px 5px 0px 0px;
+}
+
+.mega-menu-panel > .navbar
+{
+    margin-bottom:0px;
+    border: 0px solid transparent;
+    background:transparent;/*#ffe27d*/
+    min-height:0px;
+}
+
+.mega-menu-panel > .navbar-default {
+    background-color: transparent;/*#f1d160*/
+    box-shadow:none;
+}
+
+.mega-menu-panel > .navbar-default > .navbar-collapse 
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    background:transparent;/*#f1d160*/
+}
+
+.mega-menu-panel > .navbar-default > .navbar-collapse > ul.navbar-nav > li.mega-dropdown > a.mega-dropdown-title
+{
+    font-size:13px;
+    padding:3px 10px;
+    background:transparent;
+    box-shadow:none;
+    border-right:#ffe27d 1px solid;
+    border-left:#d1b246 1px solid;
+    color: #f1d160;/*#000000*/
+    font-weight:normal;
+}
+
+.mega-menu-panel > .navbar-default > .navbar-collapse > ul.navbar-nav > li.mega-dropdown {
+    padding: 5px 0px 7px 0px;
+}   
+
+.mega-menu-panel > .navbar-default > .navbar-collapse > ul.navbar-nav > li.mega-dropdown.open {
+    background: transparent;/*#ffe27d*/
+    border-right: #d1b246 0px solid;
+    border-left: #d1b246 0px solid;
+    border-bottom: #ffe27d 3px solid;
+}
+
+.mega-menu-panel > .navbar-default > .navbar-collapse > ul.navbar-nav > li.highlight
+    {
+    background: #ffe27d;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding: 5px 0px 5px 0px;
+    border-bottom: #ffe27d 3px solid;
+    border-radius:5px 5px 0px 0px;
+    }
+    
+.mega-menu-panel > .navbar-default > .navbar-collapse > ul.navbar-nav > li.highlight.open
+    {
+    background: #ffe27d;
+    }    
+    
+.mega-menu-panel > .navbar-default > .navbar-collapse > ul.navbar-nav > li.highlight > a.mega-dropdown-title
+    {
+    color:#333333;
+    } 
+
+.logo-panel img {
+    max-width: 105px!important;
+    margin: 0px;
+}
+
+.favourite-panel .favourite-box {
+    border-left: #0d1335 0px solid;
+}
+
+.txt-icon{margin:5px;}
+
+button.navbar-toggle{border:none; padding:0px; margin-top:3px;}
+button.navbar-toggle > img{width:30px; height:auto;}
+
+.mainitem-panel .panel-box {
+    background: #0d1335;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.mainitem-panel .panel-box .mainitem-box {
+    background: #ffffff;
+    padding: 0px;
+    padding-bottom: 10px;
+    border: #0d1335 1px solid;
+    border-radius: 12px 12px 10px 10px;
+    text-align: center;
+}
+.mainitem-panel .panel-box .mainitem-box > .content-box > img {
+    border: #ffffff 10px solid;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.astro-tab-box > .nav-tabs > li > a {
+    background: #0d1335;
+}
+
+.astro-tab-box .tab-box {
+    background: #0d1335;
+}
+
+.btn-green {
+    background: #428fbb;
+    border: #eeeeee 1px solid;
+    padding: 5px 15px;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 5px auto;
+}
+
+.btn-green:hover {
+    background: #dddddd;
+    border: #cccccc 1px solid;
+    color: #333333;
+}
+
+/*-- ASTRO SECTION PAGE --*/
+.myservice-box ul.status-box{margin-bottom:0px;}
+
+.myservice-box ul.status-box li.status-no,
+.myservice-box ul.status-box li.status-yes{padding:0px 0px 0px 10px!important;}
+
+.myservice-box ul.status-box li.status-no > .txt-title,
+.myservice-box ul.status-box li.status-yes > .txt-title{float: left; margin:15px 5px; font-size:14px;}
+
+.myservice-box ul.status-box li.status-no > .btn-report,
+.myservice-box ul.status-box li.status-yes > .btn-report{background:#eaeaea; float: right;padding:15px 15px; border:#dddddd 0px solid; border-left:none;font-size:14px;}
+
+.myservice-box ul.status-box li.status-no > .btn-report:hover,
+.myservice-box ul.status-box li.status-yes > .btn-report:hover{background:#dddddd;}
+
+.myservice-box ul.status-box li.status-no > .btn-status{background:#92ac28; float: right;    padding: 15px 18px 15px 17px; border:#dddddd 0px solid; border-right:none; font-size:14px; color:#ffffff;}
+.myservice-box ul.status-box li.status-yes > .btn-status{background:#ff6600; float: right;padding:15px 15px; border:#dddddd 0px solid; border-right:none; font-size:14px; color:#ffffff;}
+
+.myservice-box ul.yoga-box{margin-bottom:0px;}
+
+
+    /* --my Kundali section --*/
+    
+    .mystatus-panel .status-box > .content-box {
+    padding: 0px 5px 5px 5px;
+    margin-bottom: 0px;
+}
+    li.premium-box
+    {    
+        background-color: #e6c757;
+        border: #ffffff 1px solid;
+    }
+    
+    li.premium-box button {
+    background: #0d1335;
+    border: #ffffff 1px solid;
+    padding: 5px 15px;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 5px auto;
+    }
+    /* --my Kundali section --*/
+/*-- ASTRO SECTION PAGE --*/
+
+
+/*
+login modal : Remove 'box-header' class from h3 tag
+::-webkit-scrollbar-thumb 
+{
+    background: #ffffff;
+}
+*/

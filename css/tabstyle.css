@@ -1,0 +1,896 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 19, 2016, 8:37:00 AM
+    Author     : AVIJIT
+*/
+
+
+
+
+/* ---------------------------------------------------------------
+NEWS FEED // TAB STYLE START HERE
+--------------------------------------------------------------- */
+
+
+.nav-tabs {
+  border-bottom: 0px solid #ddd;
+  z-index: 1000;
+}
+.newsfeed-tab-box > .nav-tabs > li {
+  float: left;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  padding-left:0px;
+  padding-right:0px;
+}
+.newsfeed-tab-box > .nav-tabs > li > a {
+background: #ffffff;
+padding:15px 0px;
+border:#aeaeae solid 0px;
+border-radius: 0 0 0 0;
+margin-left: 0px;
+margin-right:0px;
+
+color: #0d2351;
+font-size:12px;
+line-height: 1.42857143;
+text-align:center;
+}
+.newsfeed-tab-box > .nav-tabs > li > a:hover {
+  background: #ffffff;
+  border:#e7e7e7 solid 0px;
+  color: #0d2351;
+}
+.newsfeed-tab-box > .nav-tabs > li > a > .icon {margin:0px 0px 0px 0px; font-size: 30px; color:#428fbb;}
+    
+.newsfeed-tab-box > .nav-tabs > li.active > a,
+.newsfeed-tab-box > .nav-tabs > li.active > a:hover,
+.newsfeed-tab-box > .nav-tabs > li.active > a:focus {
+  color: #0d2351;
+  cursor: default;
+  background: #ffffff;
+  border:#dbdbdb 1px solid;
+  border-bottom:#ffffff solid 0px;
+  border-top: #428fbb 5px solid;
+  margin-bottom: -1px;
+}
+
+/* dropdown tabs start here*/
+.newsfeed-tab-box > .nav-tabs > .dropdown > .dropdown-menu {
+  background:transparent/*#314e8b*/;
+  width:100%;
+  top: auto;
+  left: auto;
+  border:none;
+  border-top: #e7e7e7 solid 1px;
+  border-bottom:#ffd76b 3px solid;
+}
+.newsfeed-tab-box > .nav-tabs > .dropdown 
+{
+    float: none;
+}
+
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li 
+{
+  text-align:left;
+}
+
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li > a 
+{
+  padding:10px;
+  border-bottom:#3b5a9c 1px solid;
+}
+
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li > a:hover 
+{
+  background:#3b5a9c;
+}
+
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li > a > .icon
+{margin:0px 10px 0px 0px; font-size: 16px;}
+
+
+
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li.active > a, 
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li.active > a:hover,
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li.active > a:focus 
+{
+  background:#3b5a9c;
+}
+/* dropdown tabs end here*/
+
+
+/* dropdown tabs start here*/
+.newsfeed-tab-box > .nav-tabs > .dropdown > .dropdown-menu {
+  background:#314e8b;
+  width:100%;
+  top: auto;
+  left: auto;
+  border-bottom:#ffd76b 3px solid;
+}
+.newsfeed-tab-box > .nav-tabs > .dropdown 
+{
+    float: none;
+}
+
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li 
+{
+  text-align:left;
+}
+
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li > a 
+{
+  padding:10px;
+  border-bottom:#3b5a9c 1px solid;
+}
+
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li > a > .icon{
+    margin:0px 10px 0px 0px; font-size: 16px;}
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li > a > img{
+    width:35px;}
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li > a:hover 
+{
+  background:#3b5a9c;
+}
+
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li.active > a, 
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li.active > a:hover,
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li.active > a:focus 
+{
+  background:#3b5a9c;
+}
+/* dropdown tabs end here*/
+
+.tab-panel
+{
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    background:url(../images/) no-repeat center bottom;
+}
+
+.tab-panel-box
+{    
+    padding:10px; background-color:#ffffff;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    border: #dddddd solid 1px;
+}
+
+.newsfeed-tab-box .tab-box
+{    
+    background:#ffffff; 
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #dbdbdb;
+    border-top:#ffffff 0px solid;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    margin: 0 0px 0px 0px;
+    /*color:#ffffff;*/
+    box-shadow:0px 0px 0px 0px #a2a2a2;
+    
+}
+
+.tab-box-menu{  margin: 0 0px 2px 0px}
+.tab-box-menu .icon{margin-right:15px; margin-left: 5px; font-size: 18px;}
+.tab-box-menu .title{margin-right:5px; font-size:16px;}
+
+/* -------------------- CUSTOM TAB MEDIA QUERY -------------------- */		
+@media screen and (max-width: 991px) 
+{
+    .newsfeed-tab-box > .nav-tabs > li > a 
+    {
+        background:#f6f6f6;
+        border-top: #428fbb 3px solid;
+        border-bottom: #cccccc 1px solid;
+        text-align: left;
+        padding:10px 15px;
+        font-size: 15px;
+        color: #428fbb;
+        font-family: 'Ubuntu';
+    }
+    
+        .newsfeed-tab-box > .nav-tabs > li > a:hover 
+    {
+        background:#ffffff;
+        border-top: #428fbb 3px solid;
+        border-bottom: #cccccc 2px solid;
+    }
+    
+    .newsfeed-tab-box > .nav-tabs > li.active > a,
+    .newsfeed-tab-box > .nav-tabs > li.active > a:hover,
+    .newsfeed-tab-box > .nav-tabs > li.active > a:focus 
+    {
+      background: #f6f6f6;
+      border-bottom: #cccccc 2px solid;
+    }
+
+
+    .newsfeed-tab-box > .nav-tabs > li > a > .icon 
+    {
+        margin: 0px 10px 0px 0px;
+        font-size: 20px;
+        padding-bottom:10px;
+    }
+
+    .newsfeed-tab-box > .nav-tabs > .dropdown > ul > li > a 
+    {
+        background: #ffffff; 
+        padding: 10px; 
+        border-bottom:#e7e7e7 solid 1px; 
+        color: #000000;
+    }
+    
+    .newsfeed-tab-box > .nav-tabs > .dropdown > ul > li > a:hover 
+    {
+      background:#f4f4f4;
+    }
+    
+    .newsfeed-tab-box > .nav-tabs > .dropdown > ul  li > a > .icon {
+    margin: 0px 20px 0px 0px;
+    color: #428fbb;
+    }
+    
+    
+    
+    
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li.active > a, 
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li.active > a:hover,
+.newsfeed-tab-box > .nav-tabs > .dropdown > ul > li.active > a:focus 
+{
+  background:#f4f4f4;
+}
+
+
+
+.nav .open > a, 
+.nav .open > a:hover,
+.nav .open > a:focus {
+    background-color: transparent;
+    border-color: #337ab7;
+}
+
+}
+/* -------------------- CUSTOM TAB MEDIA QUERY -------------------- */
+        
+/* ---------------------------------------------------------------
+NEWS FEED // TAB STYLE END HERE
+--------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------
+PUJA TYPE // TAB STYLE START HERE
+--------------------------------------------------------------- */
+
+.nav-tabs {
+  border-bottom: 0px solid #ddd;
+  z-index: 1000;
+}
+.pujatype-tab-box > ul.nav-tabs > li {
+  float: left;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  padding-left:0px;
+  padding-right:0px;
+}
+.pujatype-tab-box > ul.nav-tabs > li > a {
+background:transparent;
+padding:15px 23px;
+border:#ffffff solid 1px;
+border-top:#ffffff 5px solid;
+border-bottom:#ffffff 5px solid;
+border-radius: 0 0 0 0;
+margin-left: 0px;
+margin-right:0px;
+
+color: #ffffff;
+font-size:12px;
+line-height: 1.42857143;
+text-align:center;
+}
+.pujatype-tab-box > ul.nav-tabs > li > a:hover {
+  background: #979797;
+  border:#ffffff solid 2px;
+  border-top:#ffffff 5px solid;
+  border-bottom:#858484 5px solid;
+  color: #ffffff;
+}
+.pujatype-tab-box > ul.nav-tabs > li > a > .icon {margin:0px 0px 0px 0px; font-size: 30px; color:#ffffff;}
+    
+.pujatype-tab-box > .nav-tabs > li.active > a,
+.pujatype-tab-box > .nav-tabs > li.active > a:hover,
+.pujatype-tab-box > .nav-tabs > li.active > a:focus {
+  color: #ffffff;
+  cursor: default;
+  background: #e37373;
+  border:#ffffff solid 1px;
+  border-top:#ffffff 5px solid;
+  border-bottom:#cf6565 5px solid;
+  margin-bottom: -5px;
+}
+
+/* dropdown tabs start here*/
+.pujatype-tab-box > .nav-tabs > .dropdown > .dropdown-menu {
+  background:#a8a8a8;
+  width:100%;
+  top: auto;
+  left: auto;
+  border-bottom:#ffd76b 3px solid;
+}
+.pujatype-tab-box > .nav-tabs > .dropdown 
+{
+    float: none;
+}
+
+.pujatype-tab-box > .nav-tabs > .dropdown > ul > li 
+{
+  text-align:left;
+}
+
+.pujatype-tab-box > .nav-tabs > .dropdown > ul > li > a 
+{
+  padding:10px;
+  border-bottom:#cbcbcb 1px solid;
+}
+
+.pujatype-tab-box > .nav-tabs > .dropdown > ul > li > a:hover 
+{
+  background:#979797;
+}
+
+.pujatype-tab-box > .nav-tabs > .dropdown > ul > li > a > .icon
+{margin:0px 10px 0px 0px; font-size: 16px;}
+
+.pujatype-tab-box > .nav-tabs > .dropdown > ul > li.active > a, 
+.pujatype-tab-box > .nav-tabs > .dropdown > ul > li.active > a:hover,
+.pujatype-tab-box > .nav-tabs > .dropdown > ul > li.active > a:focus 
+{
+  background:#e37373;
+}
+
+/* dropdown tabs end here*/
+
+.tab-panel
+{
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    background:url(../images/) no-repeat center bottom;
+}
+
+.tab-panel-box
+{    
+    padding:10px; background-color:#ffffff;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    border: #dddddd solid 1px;
+}
+
+.pujatype-tab-box .tab-box
+{    
+    background:#ffffff; 
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#ffffff;
+    box-shadow:0px 0px 0px 0px #a2a2a2;
+    
+}
+
+
+.tab-box-menu .icon
+{
+     margin-right:15px; margin-left: 5px; font-size: 18px;
+}
+.tab-box-menu .title
+{
+     margin-right:5px; font-size:16px;
+}
+
+/* -------------------- CUSTOM TAB MEDIA QUERY -------------------- */		
+@media screen and (max-width: 991px) 
+{
+    .pujatype-tab-box > ul.nav-tabs > li > a {text-align:left;}
+}
+/* -------------------- CUSTOM TAB MEDIA QUERY -------------------- */
+        
+/* ---------------------------------------------------------------
+PUJA TYPE // TAB STYLE END HERE
+--------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------
+ASTRO // TAB STYLE START HERE
+--------------------------------------------------------------- */
+
+.nav-tabs {
+  border-bottom: 0px solid #ddd;
+  z-index: 1000;
+}
+.astro-tab-box > .nav-tabs > li {
+  float: left;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  padding-left:0px;
+  padding-right:0px;
+}
+.astro-tab-box > .nav-tabs > li > a {
+background: #314e8b;
+padding:15px 5px;
+border:#aeaeae solid 0px;
+border-radius: 0 0 0 0;
+margin-left: 0px;
+margin-right:0px;
+
+color: #ffd76b;
+font-size:12px;
+line-height: 1.42857143;
+text-align:center;
+}
+.astro-tab-box > .nav-tabs > li > a:hover {
+  background: #3b5a9c;
+  color: #ffffff;
+}
+.astro-tab-box > .nav-tabs > li > a > .icon {margin:0px 10px 0px 0px; font-size: 30px;}
+.astro-tab-box > .nav-tabs > li > a > img {width:45px; margin-bottom:5px;}
+    
+.astro-tab-box > .nav-tabs > li.active > a,
+.astro-tab-box > .nav-tabs > li.active > a:hover,
+.astro-tab-box > .nav-tabs > li.active > a:focus {
+  color: #ffffff;
+  cursor: default;
+  background: #3b5a9c;
+  border:#aeaeae solid 0px;
+  border-bottom:#ffffff solid 0px;
+  margin-bottom: -5px;
+}
+
+
+
+.astro-tab-box > .nav-tabs > li > span {
+cursor: pointer;
+background: #0d1335;
+padding:15px 5px;
+border:#aeaeae solid 0px;
+border-radius: 0 0 0 0;
+margin-left: 0px;
+margin-right:0px;
+display: block;
+color: #ffd76b;
+font-size:12px;
+line-height: 1.42857143;
+text-align:center;
+}
+.astro-tab-box > .nav-tabs > li > span:hover {
+  background: #3b5a9c;
+  color: #ffffff;
+}
+.astro-tab-box > .nav-tabs > li > span > .icon {margin:0px 10px 0px 0px; font-size: 30px;}
+.astro-tab-box > .nav-tabs > li > span > img {width:45px; margin-bottom:5px;}
+    
+.astro-tab-box > .nav-tabs > li.active > span,
+.astro-tab-box > .nav-tabs > li.active > span:hover,
+.astro-tab-box > .nav-tabs > li.active > span:focus {
+  color: #ffffff;
+  cursor: default;
+  background: #3b5a9c;
+  border:#aeaeae solid 0px;
+  border-bottom:#ffffff solid 0px;
+  margin-bottom: -5px;
+}
+
+/* dropdown tabs start here*/
+.astro-tab-box > .nav-tabs > .dropdown > .dropdown-menu {
+  background:#314e8b;
+  width:100%;
+  top: auto;
+  left: auto;
+  border-bottom:#ffd76b 3px solid;
+}
+.astro-tab-box > .nav-tabs > .dropdown 
+{
+    float: none;
+}
+
+.astro-tab-box > .nav-tabs > .dropdown > ul > li 
+{
+  text-align:left;
+}
+
+.astro-tab-box > .nav-tabs > .dropdown > ul > li > a 
+{
+  padding:10px;
+  border-bottom:#3b5a9c 1px solid;
+}
+
+.astro-tab-box > .nav-tabs > .dropdown > ul > li > a > .icon{
+    margin:0px 10px 0px 0px; font-size: 16px;}
+.astro-tab-box > .nav-tabs > .dropdown > ul > li > a > img{
+    width:35px;}
+.astro-tab-box > .nav-tabs > .dropdown > ul > li > a:hover 
+{
+  background:#3b5a9c;
+}
+
+.astro-tab-box > .nav-tabs > .dropdown > ul > li.active > a, 
+.astro-tab-box > .nav-tabs > .dropdown > ul > li.active > a:hover,
+.astro-tab-box > .nav-tabs > .dropdown > ul > li.active > a:focus 
+{
+  background:#3b5a9c;
+}
+/* dropdown tabs end here*/
+
+.tab-panel
+{
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    background:url(../images/) no-repeat center bottom;
+}
+
+.tab-panel-box
+{    
+    padding:10px; background-color:#ffffff;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    border: #dddddd solid 1px;
+}
+
+.astro-tab-box .tab-box
+{    
+    background:#314e8b; 
+    padding: 20px 20px 20px 20px;
+    border: 0px solid #aeaeae;
+    border-top:#000000 2px solid;
+    border-radius: 0px 0px 0px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    margin: 0 0px 0px 0px;
+    color:#ffffff;
+    box-shadow:0px 0px 0px 0px #a2a2a2;
+    
+}
+
+.tab-box-1
+{border-left: 10px solid #ffcc33;}
+
+.tab-box-2
+{border-left: 10px solid #cc0000;}
+
+.tab-box-3
+{border-left: 10px solid #dddddd;}
+
+.tab-box-4
+{border-left: 10px solid #5d5d5d;}
+
+.tab-box-menu
+{  margin: 0 0px 2px 0px}
+
+
+.tab-box-menu .icon
+{
+     margin-right:15px; margin-left: 5px; font-size: 18px;
+}
+.tab-box-menu .title
+{
+     margin-right:5px; font-size:16px;
+}
+
+/* -------------------- CUSTOM TAB MEDIA QUERY -------------------- */		
+@media screen and (max-width: 991px) 
+{
+    .astro-tab-box > .nav-tabs > li > a {text-align:left; padding-left:15px; font-size: 15px; font-family:'Ubuntu'; font-weight:bold;}
+
+
+}
+/* -------------------- CUSTOM TAB MEDIA QUERY -------------------- */
+        
+/* ---------------------------------------------------------------
+ASTRO // TAB STYLE END HERE
+--------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------
+LOCATOR // TAB STYLE START HERE
+--------------------------------------------------------------- */
+
+.locator-tab-box > .nav-tabs {
+  border-bottom: 0px solid #ddd;
+  z-index: 1000;
+
+}
+.locator-tab-box > .nav-tabs > li {
+  float: left;
+  margin-bottom: 0px;
+  width: 25%;
+}
+.locator-tab-box > .nav-tabs > li > a {
+  background: #ffffff;
+  margin-left: 0px;
+  margin-right:4px;
+  padding:15px 15px;
+  border:#aeaeae solid 1px;
+  border-radius: 0 0 0 0;
+
+  color: #000000;
+  line-height: 1.42857143;
+  font-size:16px;
+  font-weight:bold;
+}
+.locator-tab-box > .nav-tabs > li > a:hover {
+  background: #ffffff;
+  color: #cc0000;
+}
+.locator-tab-box > .nav-tabs > li > a > .icon {margin:0px 10px 0px 0px; font-size:18px;}
+.locator-tab-box > .nav-tabs > li > a > .title {color:#314e8b; font-weight:bold; font-style:italic;}
+    
+.locator-tab-box > .nav-tabs > li.active > a,
+.locator-tab-box > .nav-tabs > li.active > a:hover,
+.locator-tab-box > .nav-tabs > li.active > a:focus {
+  color: #cc0000;
+  cursor: default;
+  background-color: #ffffff;
+  border:#aeaeae solid 1px;
+  border-bottom:#ffffff solid 6px;
+  margin-bottom: -5px;
+}
+
+.nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-tabs.nav-justified > li {
+  float: none;
+}
+.nav-tabs.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+
+.locator-tab-box .tab-box
+{    
+    padding: 10px 10px 5px 10px; 
+    background-color: #ffffff; 
+    border: 1px solid #aeaeae;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow:0px 0px 0px 0px #a2a2a2;
+    margin: 0 0px 0px 0px;
+}
+
+.locator-tab-box .tab-box .map-box{border: 1px solid #aeaeae;}
+
+
+/* -------------------- CUSTOM TAB MEDIA QUERY -------------------- */		
+@media screen and (max-width: 590px) 
+{
+    .locator-tab-box > .nav-tabs > li > a {text-align: center;}            
+}
+/* -------------------- CUSTOM TAB MEDIA QUERY -------------------- */
+        
+/* ---------------------------------------------------------------
+LOCATOR // TAB STYLE END HERE
+--------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------
+LEFT ALLIGN // TAB STYLE START HERE
+--------------------------------------------------------------- */
+
+
+.tabs-left > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 0px;
+}
+
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+}
+
+
+
+/* ---------------------------------------------------------------
+LEFT ALLIGN // TAB STYLE END HERE
+--------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------
+RIGHT ALLIGN // TAB STYLE START HERE
+--------------------------------------------------------------- */
+
+.right-tab-box{background:#ffffff; padding:0px 3px 4px 0px;  border:#cccccc 1px solid; border-radius:6px 6px 0px 10px; margin-bottom:5px;}
+.right-tab-box > .tab-title{padding:10px 10px; font-size:14px; margin:-1px -4px 3px -1px;} 
+.tabs-right{margin-top:3px;text-transform: capitalize;cursor: pointer;}
+
+.tabs-right > .nav-tabs {
+        float: right;
+        background:#ffffff;
+	margin-left: 0px;
+	border-left: 0px solid #ddd;
+        min-height:300px;
+}
+
+
+
+.tabs-right .nav > li > a {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 12px 10px 12px 10px;
+    margin:0px 0px 2px 0px;
+
+}
+
+.tabs-right > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-right > .nav-tabs > li > a {
+
+        min-width: 74px;
+        margin-right: 0;
+        margin-bottom: 0px;
+        font-size: 12px;
+        border:#cccccc 1px solid;
+	border-radius: 4px 0px 0px 4px;
+}
+
+.tabs-right > .nav-tabs > li > a .icon {
+        font-size: 30px; margin-bottom: 0px;
+        
+}
+
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus {
+        background: #f6f6f6;
+}
+
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover,
+.tabs-right > .nav-tabs .active > a:focus {
+	background:#428fbb;
+        border: #428fbb 1px solid;
+        color:#ffffff;
+}
+
+
+.tabs-right > .tab-content{background:#ffffff; padding:10px 10px; margin-right: 85px;}
+.tabs-right > .tab-content > .tab-pane > img{border:#b3bed4 1px solid; padding: 0px; margin-bottom:10px;}
+.tabs-right > .tab-content > .tab-pane > .txt-title{font-size:15px; font-weight: bold;}
+.tabs-right > .tab-content > .tab-pane > p{color:#545454; font-size:12px; margin-bottom:5px;}
+.btn-login{background:#3b5a9c; color:#ffffff; border:#b3bed4 2px solid; padding:5px 15px; font-size:12px; font-weight:bold;}
+
+
+
+/* ---------------------------------------------------------------
+RIGHT ALLIGN // TAB STYLE END HERE
+--------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------
+LISTED // TAB STYLE START HERE
+--------------------------------------------------------------- */
+
+.listed-tab-box
+{    
+    background: #ffffff;
+    padding: 0px;
+    border: #cccccc 1px solid;
+    border-radius: 6px 6px 0px 0px;
+    margin-bottom: 5px;
+}
+.listed-tab-box > .tab-title{padding:10px 10px; font-size:14px; margin:-1px -1px 0px -1px;} 
+.tabs-listed{margin-top:3px;}
+
+.tabs-listed > .nav-tabs {
+        background:#ffffff;
+	margin-left: 0px;
+	border-left: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+        width:100%;
+}
+
+
+
+.tabs-listed .nav > li > a {
+    position: relative;
+    display: block;
+    text-align:left;
+    padding: 5px 10px 5px 10px;
+    margin:0px 0px 2px 0px;
+
+}
+
+.tabs-listed > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-listed > .nav-tabs > li > a {
+
+        min-width: 74px;
+        margin-right: 0;
+        margin-bottom: 0px;
+        font-size: 12px;
+        border:#cccccc 1px solid;
+	border-radius: 0px 0px 0px 0px;
+}
+
+.tabs-listed > .nav-tabs > li > a .icon {
+        font-size: 16px; margin-right:10px;
+}
+
+.tabs-listed > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus {
+        background: #f6f6f6;
+}
+
+.tabs-listed > .nav-tabs .active > a,
+.tabs-listed > .nav-tabs .active > a:hover,
+.tabs-listed > .nav-tabs .active > a:focus {
+	background:#f6f6f6;
+        border: #cccccc 1px solid;
+        color:#333333;
+}
+
+
+.tabs-listed > .tab-content{background:#ffffff; padding:10px 10px;}
+.tabs-listed > .tab-content > .tab-pane > img{border:#b3bed4 1px solid; padding: 0px; margin-bottom:10px;}
+.tabs-listed > .tab-content > .tab-pane > .txt-title{font-size:15px; font-weight: bold;}
+.tabs-listed > .tab-content > .tab-pane > p{color:#545454; font-size:12px; margin-bottom:5px;}
+.btn-login{background:#3b5a9c; color:#ffffff; border:#b3bed4 2px solid; padding:5px 15px; font-size:12px; font-weight:bold;}
+
+
+
+/* ---------------------------------------------------------------
+LISTED // TAB STYLE END HERE
+--------------------------------------------------------------- */
+
+
+
+
+
+.panel-default .panel-heading {
+    color: #ffffff;
+    background-color: #337ab7;
+}

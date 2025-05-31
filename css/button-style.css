@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 Oct, 2016, 9:06:24 PM
+    Author     : @vijitdutta
+*/
+
+/* -------------- BUTTON STYLE // START HERE ------------------ */
+
+.btn-yellow{background:#efd67e; border:#e6c757 2px solid; padding:5px 15px; font-size:12px; color:#333333; margin:5px auto;}
+.btn-blue{background:#3b5a9c; border:#b3bed4 2px solid; padding:5px 15px; font-size:12px; color:#ffffff; margin:5px auto;}
+.btn-green{background:#92ac28; border:#b0c948 2px solid; padding:5px 15px; font-size:12px; color:#ffffff; margin:5px auto;}
+.btn-green:hover{background:#8aa326; border:#b0c948 2px solid;color: #FFF;}
+.btn-red{background:#c75c5c; border:#e28585 2px solid; padding:5px 15px; font-size:12px; color:#ffffff; margin:5px auto;}
+.btn-red:hover{background:#c75c5c; border:#e28585 2px solid;color: #FFF;}
+.btn-sky{background:#428fbb; border:#77b5d9 2px solid; padding:5px 15px; font-size:12px; color:#ffffff; margin:5px auto;}
+.btn-sky:hover{background:#2c749d; border:#77b5d9 2px solid;color: #FFF;}
+.btn-followers
+{
+    background: #0f344f;
+    margin-top: 0px;
+    padding:15px 15px 15px 15px;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+    color:#e1cd88;
+    font-size: 14px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.btn-more {
+    background:transparent; 
+    color: #314e8a; 
+    font-weight:bold; 
+    padding:5px;
+    font-size: 12px; 
+    border:transparent 1px solid;
+    margin:0px 0px;
+}
+.btn-buynow {
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin:10px 0px 10px 0px;
+    font-family: 'Ubuntu';
+}
+.btn-premium{background:#f1d160; border:#ffe27d 3px solid; border-radius: 0px;}
+#btn-facebook {
+    background:url(../images/icon-facebook.png) no-repeat;
+    cursor:pointer;
+    width:35px;
+    height:35px;
+    border: none;
+    margin:0px 1px;
+}
+#btn-twitter {
+    background:url(../images/icon-twitter.png) no-repeat;
+    cursor:pointer;
+    width:35px;
+    height:35px;
+    border: none;
+    margin:0px 1px;
+}
+
+#btn-linkedin {
+    background:url(../images/icon-linkedin.png) no-repeat;
+    cursor:pointer;
+    width:35px;
+    height:35px;
+    border: none;
+    margin:0px 1px;
+}
+
+#btn-gplus {
+    background:url(../images/icon-gplus.png) no-repeat;
+    cursor:pointer;
+    width:35px;
+    height:35px;
+    border: none;
+    margin:0px 1px;
+}
+#btn-yt {
+    background:url(../images/icon-youtube.png) no-repeat;
+    cursor:pointer;
+    width:35px;
+    height:35px;
+    border: none;
+    margin:0px 1px;
+}
+
+.btn-full{width:100%;}
+.btn-big
+{
+    padding:20px 15px; 
+    font-size:15px; 
+    margin:5px auto; 
+    font-weight:bold;
+}
+.btn-mid
+{
+    padding:10px 8px; 
+    font-size:13px; 
+    margin:5px auto; 
+    font-weight:bold;
+}
+.btn-small
+{
+    padding:10px 15px; 
+    font-size:12px; 
+    margin:5px auto; 
+    font-weight:bold;
+}
+.btn-left{text-align: left;}
+.btn-right{text-align: right;}
+.btn-center{text-align:center;}
+
+.header-yellow{background:#efd67e; padding:5px 15px; font-size:14px; color:#333333; border-radius: 6px 6px 0px 0px;}
+.header-red{background:#c75c5c; padding:5px 15px; font-size:14px; color:#ffffff; border-radius: 6px 6px 0px 0px;}
+.header-green{background:#92ac28; padding:5px 15px; font-size:14px; color:#ffffff; border-radius: 6px 6px 0px 0px;}
+.header-sky{background:#428fbb; padding:5px 15px; font-size:14px; color:#ffffff; border-radius: 6px 6px 0px 0px;}
+.icon-right{margin-right: 10px;}
+.icon-left{margin-left: 10px;}
+
+
+/* -------------- BUTTON STYLE // END HERE ------------------ */
+

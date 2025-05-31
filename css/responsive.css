@@ -1,0 +1,276 @@
+/* ------------------------------------------------------------------------------------------------------------------------------
+		// CUSTOM MEDIA QUERIES STYLE START HERE //
+------------------------------------------------------------------------------------------------------------------------------*/	
+
+	/* -------------------- for mini screen -------------------- */ 
+ 	@media screen and (max-width:991px) 
+	{
+            h1,h2,h3,h4{margin-bottom:10px; line-height:normal;}
+            h1{font-size: 20px; font-weight: bold;}
+            h2{font-size: 18px; font-weight: bold;}
+            h3{font-size: 16px; font-weight: bold;}
+            
+            .astro-service-panel > .content-box > .article-box {text-align:center;}
+            .title-panel{font-size:16px;}
+        }
+        /* -------------------- for mini screen -------------------- */ 
+ 
+ 
+ 
+	/* -------------------- for mini screen -------------------- */ 
+ 	@media screen and (min-width: 0px) and (max-width: 320px) 
+	{
+            .hidden-mm {display: none !important;}
+            
+            .col-mm-1, .col-mm-2, .col-mm-3, .col-mm-4, .col-mm-5, .col-mm-6,  
+            .col-mm-7, .col-mm-8, .col-mm-9, .col-mm-10, .col-mm-11, .col-mm-12 {
+              position: relative;
+              min-height: 1px;
+              padding-right: 15px;
+              padding-left: 15px;
+            }
+
+                    .col-mm-1, .col-mm-2, .col-mm-3, .col-mm-4, .col-mm-5, .col-mm-6,
+                    .col-mm-7, .col-mm-8, .col-mm-9, .col-mm-10, .col-mm-11, .col-mm-12 {
+                      float: left;
+                    }
+                    .col-mm-12 {
+                      width: 100%;
+                    }
+                    .col-mm-11 {
+                      width: 91.66666667%;
+                    }
+                    .col-mm-10 {
+                      width: 83.33333333%;
+                    }
+                    .col-mm-9 {
+                      width: 75%;
+                    }
+                    .col-mm-8 {
+                      width: 66.66666667%;
+                    }
+                    .col-mm-7 {
+                      width: 58.33333333%;
+                    }
+                    .col-mm-6 {
+                      width: 50%;
+                    }
+                    .col-mm-5 {
+                      width: 41.66666667%;
+                    }
+                    .col-mm-4 {
+                      width: 33.33333333%;
+                    }
+                    .col-mm-3 {
+                      width: 25%;
+                    }
+                    .col-mm-2 {
+                      width: 16.66666667%;
+                    }
+                    .col-mm-1 {
+                      width: 8.33333333%;
+                    }
+                    
+            }
+        /* -------------------- for mini screen -------------------- */ 
+        
+        
+        
+	/* -------------------- for mini small screen -------------------- */		
+	@media screen and (min-width: 321px) and (max-width: 590px) 
+	{ 
+            .hidden-ms {display: none !important;}
+            
+            .col-ms-1, .col-ms-2, .col-ms-3, .col-ms-4, .col-ms-5, .col-ms-6,  
+            .col-ms-7, .col-ms-8, .col-ms-9, .col-ms-10, .col-ms-11, .col-ms-12 {
+              position: relative;
+              min-height: 1px;
+              padding-right: 15px;
+              padding-left: 15px;
+            }
+
+                    .col-ms-1, .col-ms-2, .col-ms-3, .col-ms-4, .col-ms-5, .col-ms-6,
+                    .col-ms-7, .col-ms-8, .col-ms-9, .col-ms-10, .col-ms-11, .col-ms-12 {
+                      float: left;
+                    }
+                    .col-ms-12 {
+                      width: 100%;
+                    }
+                    .col-ms-11 {
+                      width: 91.66666667%;
+                    }
+                    .col-ms-10 {
+                      width: 83.33333333%;
+                    }
+                    .col-ms-9 {
+                      width: 75%;
+                    }
+                    .col-ms-8 {
+                      width: 66.66666667%;
+                    }
+                    .col-ms-7 {
+                      width: 58.33333333%;
+                    }
+                    .col-ms-6 {
+                      width: 50%;
+                    }
+                    .col-ms-5 {
+                      width: 41.66666667%;
+                    }
+                    .col-ms-4 {
+                      width: 33.33333333%;
+                    }
+                    .col-ms-3 {
+                      width: 25%;
+                    }
+                    .col-ms-2 {
+                      width: 16.66666667%;
+                    }
+                    .col-ms-1 {
+                      width: 8.33333333%;
+                    }  
+                    
+                    .exclusive-panel .exclusive-box{width: 100%;}
+                    
+        } 
+        /* -------------------- for mini small screen -------------------- */
+        
+        
+        
+	/* -------------------- for xtra small screen -------------------- */		
+	@media screen and (min-width: 591px) and (max-width:767px) 
+	{  
+        .exclusive-panel .exclusive-box{width: 100%;}  
+        .nav_media-xs
+            {
+                position: absolute;
+                z-index: 1!important;
+                right: -100%;
+                padding-left: 14px!important;
+                width: 200%!important;
+                left: -100%!important;
+            }
+            
+        .header-panel .mega-menu-panel {
+        background:transparent;
+        border-top:transparent;
+        }
+        .logo{max-width:120px !important; height:auto;}
+	}
+        /* -------------------- for xtra small screen -------------------- */
+        
+        
+
+	/* -------------------- for small screen -------------------- */
+        @media screen and (min-width:768px)
+        {
+           .quickbox-content img {text-align: center;padding: 5px; border: #dfdfdf 0px solid;}
+        }
+        
+	@media screen and (min-width: 768px) and (max-width: 991px) 
+	{
+             
+	}
+        /* -------------------- for small screen -------------------- */
+        
+        
+
+	/* -------------------- for medium screen -------------------- */	
+	@media screen and (min-width: 992px) and (max-width: 1199px) 
+	{
+
+
+	}
+        /* -------------------- for medium screen -------------------- */
+        
+
+	/* -------------------- for large screen -------------------- */
+        @media screen and (min-width: 1200px) 
+	{
+
+           
+	}
+        /* -------------------- for large screen -------------------- */
+      
+	
+/*------------------------------------------------------------------------------------------------------------------------------
+		// CUSTOM MEDIA QUERIES STYLE END HERE //
+------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------        
+        @media screen and (min-width: 1361px) and (max-width: 1920px), screen and (max-height: 1080px) 
+	{
+
+	}
+------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 321px) and (max-width: 767px) 
+{
+    .header-panel .admin-panel > ul.navbar-nav.nav > li.dropdown.open > ul.dropdown-menu 
+    {
+        position: absolute;
+        margin-left: -259px;
+        z-index: 1101;
+    }
+}
+
+
+/**
+
+Additional Updates
+
+
+*/
+
+
+.acc_notification {
+    position: fixed;
+    z-index: 9999;
+    background: coral;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 8px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 320px;
+    overflow-y: scroll;
+}
+.acc_notification h4
+{
+    font-size: 13px;
+    text-align: right;
+}
+.acc_notification h4
+{
+    font-size: 13px;
+    text-align: right;
+}
+.acc_notification p
+{
+    font-size: 12px;
+    line-height: 1.3em;
+    color: #101010;
+}
+.acc_notification .row
+{
+    background-color: rgba(255,255,255,0.8);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.rep_row
+{
+    border-bottom: 2px solid #d3d3d3;
+    margin-bottom: 12px;
+    padding-bottom: 5px;
+}
+
+/**
+
+Additional Updates
+
+
+*/
